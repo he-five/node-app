@@ -1,0 +1,17 @@
+{
+   "name": "node-app",
+   "description": "hello jenkins test app",
+   "version": "0.0.1",
+   "private": true,
+   "scripts": {
+      "start": "node ./index.js",
+      "pkg": "pkg . --targets node10-win-x64 --out-path distribution"
+   },
+   "dependencies": {
+      "express": "^4.16.4"
+   },
+   "devDependencies": {
+      "mocha": "^6.0.2",
+      "supertest": "^3.4.2"
+   }
+}
