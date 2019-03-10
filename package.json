@@ -5,7 +5,7 @@
    "private": true,
    "scripts": {
       "start": "node ./index.js",
-      "pkg": "pkg . --targets node10-win-x64 --out-path distribution"
+      "pkg": "pkg . --targets node10-linux-x64 --out-path distribution"
    },
    "dependencies": {
       "express": "^4.16.4"
